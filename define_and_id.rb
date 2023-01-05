@@ -26,8 +26,13 @@
 # The return value is true because the string argument "rld" is at the end of the string "Hellow World"
 
 12.even?
+# The even method is a boolean method
+# Assigned to an integer to get a return value of true/false
 
+15.even? #=> false
 
 18.next
+# The next method is an integer method
+# When assigned to an integer, it will return the next consecutive integer
 
-
+19.next #=> 20
