@@ -43,7 +43,7 @@ puts square(num1, num2)
 # In this instance, I put 1 as num1 and 2 as num2 and and 1 squared equals 1. I also tried 2 as num1 and 2 as num2, and 2 squared equals 4.
 
 # How many arguments did you pass your method?
-#I had one argument in my method.
+# I had two argument in my method.
 
 # What data type was your argument(s)?
 # My data type was the integer argument.
@@ -51,9 +51,17 @@ puts square(num1, num2)
 
 #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
 
+def greet_person(first, middle, last)
+    puts "Hey, #{first} #{middle} #{last}. How is your day?"
+end
 
+puts greet_person("Angel", "B", "Byun")
 
 # What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# My return value is "Hey, Angel B Byun. How is your day?"
 
+# How many arguments did you pass your method?
+# I passed three arguments in my method.
+
+# What data type was your argument(s)?
+# My data type was the string argument.
