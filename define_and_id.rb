@@ -11,13 +11,19 @@
 
 
 "Hello World".include?("Hello")
-
+# The include method is called on the string object "Hello World"
+# "Hello" in the paranthesis is the string argument; the include method is a string method that seeks if the argument is within the string
+# The return value is true because the string argument "Hello" is included within the string "Hello World"
 
 "Hello World".end_with?("Hello")
-
+#  The end_with? method is called on the string object "Hello World"
+# "Hello" in the paranthesis is the string argument; the end_with? method is a string method that seeks if the argument ends with the suffix given
+# The return value is false because the string argument "Hello" is not at the end of the string "Hello World"
 
 "Hello World".end_with?("rld")
-
+#  The end_with? method is called on the string object "Hello World"
+# "Hello" in the paranthesis is the string argument; the end_with? method is a string method that seeks if the argument ends with the suffix given
+# The return value is true because the string argument "rld" is at the end of the string "Hellow World"
 
 12.even?
 
