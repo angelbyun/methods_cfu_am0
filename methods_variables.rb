@@ -3,10 +3,23 @@
 
 # Define a variable that stores a string
 
+p "Hello, Mod 0"
+
 #  call upcase on the variable, print it out
+
+p "Hello, Mod 0".upcase
+
 #  call downcase on the variable, print it out
+
+p "Hello, Mod 0".downcase
+
 #  call reverse on the variable, print it out
+
+p "Hello, Mod 0".reverse
+
 #  call length on the variable, print it out
+
+p "Hello, Mod 0".length
 
 
 
